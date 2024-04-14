@@ -23,7 +23,7 @@ def main():
         print(q)
         print("-" * 4)
         input("Answer: ")
-        o = input(f"The answer was: {a}\nWere you correct? (Y/n/exit): ")
+        o = input(f"The answer was: {a}\nWere you can correct? (Y/n/exit): ")
         print("=" * 5)
         if not o or o[0].lower() == "y":
             box_idx = min(box_idx + 1, len(slots) - 1)
